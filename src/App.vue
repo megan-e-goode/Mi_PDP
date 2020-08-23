@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <Navbar />
-    <router-view/>
+   <Navbar />
+   <router-view/>
   </div>
 </template>
 
@@ -24,16 +24,25 @@ export default {
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-}
+  nav {
+    padding: 30px;
+  }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  nav a {  
+    font-weight: bold;
+    color: #fff;
+  }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  nav a:hover {
+    text-decoration: none;
+    color: #42b989;
+  }
+
+  nav a.router-link-exact-active {
+    color: #42b989;
+  }
+
+  .line-height-50 {
+        line-height: 50px;;
+    }
 </style>

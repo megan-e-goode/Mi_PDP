@@ -1,7 +1,14 @@
 <template>
-    <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 h1">Navbar</span>
-    </nav>
+    <div>
+        <b-navbar variant="dark" type="dark">
+            <b-navbar-brand href="#" class="line-height-50">
+            <img src="~/../assets/profileBitmoji.png" class="profile-img d-inline-block align-top" alt="Profile photo">
+            Mi PDP
+            </b-navbar-brand>
+            <router-link to="/">Home</router-link> |
+            <router-link to="/about">About</router-link>
+        </b-navbar>
+    </div>
 </template>
 
 <script>
@@ -9,3 +16,10 @@ export default {
     name: "Navbar"
 }
 </script>
+
+<style scoped>
+    .profile-img {
+        height: 50px;
+        width: auto;
+    }
+</style>
