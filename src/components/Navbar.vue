@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-navbar variant="dark" type="dark">
+        <b-navbar variant="dark" type="dark" class="line-height-50">
             <b-navbar-brand href="#" class="line-height-50">
             <img src="~/../assets/profileBitmoji.png" class="profile-img d-inline-block align-top" alt="Profile photo">
             Mi PDP
