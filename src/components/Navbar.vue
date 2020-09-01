@@ -2,7 +2,7 @@
     <div>
         <b-navbar variant="dark" type="dark" class="line-height-50">
             <b-navbar-brand href="#" class="line-height-50">
-            <img src="~/../assets/profileBitmoji.png" class="profile-img d-inline-block align-top" alt="Profile photo">
+            <b-avatar variant="light" src="/img/profileBitmoji.c6a8131b.png" alt="Profile photo"></b-avatar>
             Mi PDP
             </b-navbar-brand>
             <router-link to="/">Home</router-link> |
