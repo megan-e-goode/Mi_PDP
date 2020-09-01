@@ -3,7 +3,7 @@
         <b-button size="lg" 
             variant="outline-dark" 
             class="pdp-tile" 
-            @click="$router.push({name: 'PdpDetail', params: { id: pdp.id, pdp: pdp }})">
+            @click="$router.push({name: 'PdpDetail', params: { pdp: pdp }})">
             {{pdp.title}}
         </b-button>
     </div>

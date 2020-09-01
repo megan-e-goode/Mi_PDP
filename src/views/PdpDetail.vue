@@ -1,6 +1,6 @@
 <template>
   <div>
-    PDP id: {{ id }}
+    PDP id: {{ pdp.id }}
     PDP title: {{pdp.title}}
   </div>
 </template>
@@ -10,10 +10,6 @@ export default {
   name: "PdpDetail",
 
   props: {
-    id: {
-      type: String,
-      required: true
-    },
     pdp: {
     type: Object,
     required: true
