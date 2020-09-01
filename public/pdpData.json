@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "title": "2020/2021 PDP",
+        "period": "2020/2021",
+        "goals": [
+            {
+                "id": 1,
+                "title": "Learn Competency Framework OWASP",
+                "description": "To learn the top 10 OWASP principles to at least a junior software engineering level and know where/how they are used within the BGL applications.",
+                "keyActivities": "Top 10 OWASP Principles, Where have any bee used in the BGL applications (examples?).",
+                "deadline": "Mid-year review.",
+                "progress": 3
+            },
+            {
+                "id": 2,
+                "title": "Improve on presentation skills",
+                "description": "To improve my presentation soft skill to increase my confidence in public speaking.",
+                "keyActivities": "Present to a small audience (family/ friends). Present/run a .Net community meeting.",
+                "deadline": "End of year review.",
+                "progress": 2
+            },
+            {
+                "id": 3,
+                "title": "Learn Vue.js",
+                "description": "To learn the basics of Vue.js.",
+                "keyActivities": "Create a static site using Vue.js. Possibly use this knowledge to run a session for .Net community.",
+                "deadline": "End of year review.",
+                "progress": 3
+            },
+            {
+                "id": 4,
+                "title": "Develop knowledge on Powershell",
+                "description": "To learn more about Powershell and increase my knowledge on it.",
+                "keyActivities": "Try to create a powershell script to change settings on machines to set up for MA, and change back quickly.",
+                "deadline": "End of year review.",
+                "progress": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "2019/2020 PDP",
+        "period": "2019/2020",
+        "goals": [
+            {
+                "id": 1,
+                "title": "Apprenticeship",
+                "description": "Complete one evidence submission for portfolio work. Take a mock test for HTML, CSS and Javascript exam.",
+                "keyActivities": "One evidence submission will be submitted to Makers and one mock test will be completed with the result recorded.",
+                "deadline": "Mid year review.",
+                "progress": 4
+            },
+            {
+                "id": 2,
+                "title": "Technical",
+                "description": "Understand BGL coding standards, and apply these to tickets I work on within the team.",
+                "keyActivities": "Builds should pass with the code I have written as my tech lead and TeamCity will pick up any issues/bad practice code.",
+                "deadline": "End of year review.",
+                "progress": 4
+            },
+            {
+                "id": 3,
+                "title": "Business",
+                "description": "Understand BGL's stratergy. ",
+                "keyActivities": "Be able to discuss BGL's stratergy at a high level.",
+                "deadline": "End of year review.",
+                "progress": 3
+            },
+            {
+                "id": 4,
+                "title": "Personal",
+                "description": "Get involved with the social committee and possible charity groups (e.g. STEM).",
+                "keyActivities": "Record involvment and success within the groups.",
+                "deadline": "End of year review.",
+                "progress": 4
+            },
+            {
+                "id": 5,
+                "title": "Soft Skills",
+                "description": "Communication",
+                "keyActivities": "Speak out in mobbing work and retros to express my ideas and methodology behind them.",
+                "deadline": "End of year review.",
+                "progress": 4
+            }
+        ]
+    }
+]

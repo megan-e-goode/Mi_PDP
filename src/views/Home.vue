@@ -1,18 +1,28 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Pdps v-bind:pdps="pdps"/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Pdps from '@/components/Pdps'
+import axios from 'axios';
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    Pdps
+  },
+  data() {
+    return {
+      pdps: []
+    }
+  },
+  created() {
+    axios.get('pdpData.json')
+    .then(res => this.pdps = res.data)
+    .catch( err => console.log("Error: " + err));
   }
 }
 </script>
