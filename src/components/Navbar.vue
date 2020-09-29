@@ -18,8 +18,4 @@ export default {
 </script>
 
 <style scoped>
-    .profile-img {
-        height: 50px;
-        width: auto;
-    }
 </style>

@@ -20,8 +20,31 @@ export default {
     type: Object,
     required: true
     }
-  },  
+  },
+  methods: {
+    SetProgressValues(goals) {
+      goals.forEach(goal => {
+        var progressDescription = (function(progressIndicator) {
+          switch (progressIndicator) {
+              case 1: 
+                return "Not Started";
+              case 2: 
+                return "Planning";
+              case 3: 
+                return "In Progress";
+              case 4: 
+                return "Complete";
+              default:
+                return "N/A";
+            }
+        })(goal.progress);
+
+        goal.progress = progressDescription;
+      });
+    }
+  },
   created () {
+    this.SetProgressValues(this.pdp.goals);
   },
   data() {
       return {
